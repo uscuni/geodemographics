@@ -68,6 +68,7 @@ environments:
       - conda: https://prefix.dev/conda-forge/noarch/click-plugins-1.1.1.2-pyhd8ed1ab_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/cligj-0.7.2-pyhd8ed1ab_2.conda
       - conda: https://prefix.dev/conda-forge/noarch/cloudpickle-3.1.2-pyhcf101f3_1.conda
+      - conda: https://prefix.dev/conda-forge/noarch/clustergram-0.8.1-pyhd8ed1ab_1.conda
       - conda: https://prefix.dev/conda-forge/noarch/cmweather-0.3.2-pyhd8ed1ab_1.conda
       - conda: https://prefix.dev/conda-forge/linux-64/coin-or-cbc-2.10.13-h4d16d09_0.conda
       - conda: https://prefix.dev/conda-forge/linux-64/coin-or-cgl-0.60.10-hc46dffc_0.conda
@@ -1240,6 +1241,18 @@ packages:
   license_family: BSD
   size: 27353
   timestamp: 1765303462831
+- conda: https://prefix.dev/conda-forge/noarch/clustergram-0.8.1-pyhd8ed1ab_1.conda
+  sha256: 63f580ee97227bdd39622776e95a4ee66364cc882aa5c24aceb8395a0643e48c
+  md5: 9cd249e1dc734ee8ebe654c69f7c4b50
+  depends:
+  - matplotlib-base
+  - numpy
+  - pandas
+  - python >=3.9
+  license: MIT
+  license_family: MIT
+  size: 20455
+  timestamp: 1736761284018
 - conda: https://prefix.dev/conda-forge/noarch/cmweather-0.3.2-pyhd8ed1ab_1.conda
   sha256: 0d5fd6677fd9ab0a7460db49f3e36014a4ca41cf1284a09f2234b1029eb0ae76
   md5: 327709ddff5c661e2fb3744856d2a806
